@@ -1,0 +1,11 @@
+server:
+  port: 1212
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    password: 291103
+    url: jdbc:mariadb://localhost:3306/API
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
